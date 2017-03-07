@@ -1,0 +1,483 @@
+/*main body styles*/
+body {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Montserrat', sans-serif;
+	background-image:url("../images/index/bg.jpg");
+	background-repeat:repeat;
+}
+
+/*clear div styles*/
+.clear{
+	clear:both;
+}
+
+/*inner styles here*/
+.header .inner, .navigation .inner, .slider .inner, .emergencyPlumber .inner, .ourServices .inner,
+.aboutEmergencyPlumber .inner, .content .inner, .controlPanel .inner, .footer .inner{
+	width:980px;
+	margin: 0 auto;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/*Top 2 divs at top of page*/
+.top .left, .top .right{
+	width:50%;
+	height:17px;
+}
+
+.top .left{
+	background-color:#1D70B8;
+	float:left;
+}
+
+.top .right{
+	background-color:#BE1622;
+	float: right;
+}
+
+/*Header styles*/
+.header {
+	background-color:#FFFFFF;
+}
+
+.header .inner{
+	padding: 8px 0px;
+}
+
+.contacts{
+	float:right;
+	height:60px;
+	text-align:justify;
+	margin-right:20px;
+}
+
+.contacts p{
+	margin:0;
+}
+.contacts .contact1{
+	float:left;
+	margin-right:40px;
+	text-align:left;
+}
+.contacts .contact2{
+	float:right;
+	text-align:left;
+}
+
+.line1{
+	color:#000000;
+}
+
+.name{
+	font-weight:bold;
+	color:#0040FF;
+}
+
+.number{
+	font-weight:bold;
+	color:#ff0000;
+}
+
+/*Main Navigation styles*/
+.navigation{
+	background-color:#ECECEC;
+}
+
+.navigation .inner{
+	/* padding: 8px 10px; */
+}
+
+.navigation .inner ul.links{
+	float:left;
+	padding:4px 0;
+	margin:0;
+}
+
+.navigation .inner ul.links li{
+	list-style:none;
+	display:inline-block;
+	padding:8px 8px;
+}
+
+.navigation .inner ul.links li > a{
+	text-decoration:none;
+	color:#000;
+}
+
+.navigation .inner ul.links li > a:hover{
+	color:#1D70B8;
+	text-decoration:none;
+}
+
+.contact{
+	float:right;
+	margin:0 20px 0 0;
+	padding:0;
+}
+
+.contact p{ 
+	text-align:justify;
+	margin:0;
+	padding:0;
+}
+
+.contact p.number{ 
+	text-align:justify;
+}
+
+/*Slider styles*/
+.slider{
+	background-color:#FFFFFF;
+	overflow:hidden;
+}
+
+.slider .inner{
+	overflow: hidden;
+	position:relative;
+	width:980px;
+	
+}
+
+.slider .inner #container{
+	margin:20px;
+	width:900px;
+	overflow: hidden;
+}
+
+.slider .inner #container ul{
+	width: 323%;
+	height: auto;
+	margin: 0px;
+	padding: 0;
+	position: relative;
+	list-style: none;
+	display:inline-block;
+	white-space:nowrap;
+	margin-left:0px;
+	overflow:hidden;
+}
+
+.slider .inner #container ul li{
+	width: 33%;
+	position: relative;
+	display: inline-block;
+	margin-right:-4px;
+	white-space:nowrap;
+}
+
+.slider .inner ul li a{
+	text-decoration:none;
+	color:inherit;
+}
+
+.slider .inner ul li img{	
+	width: 100%;
+}
+
+/*Emergency Plumber Contact styles*/
+.emergencyPlumber{
+	background-color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.emergencyPlumber .inner{
+	padding: 8px 20px;
+	text-align:center;
+}
+
+.emergencyPlumber .inner p{
+	color:#1d70b8;
+}
+
+.emergencyPlumber .inner ul.links{
+	padding:4px 0;
+	margin:0;
+}	
+
+.emergencyPlumber .inner ul.links li{
+	list-style: none;
+	margin: 0 20px;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.emergencyPlumber .inner .bookEmergency{
+	padding: 20px;
+	border:1px solid rgba(0,0,0,0.4);
+	text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+	box-shadow:
+	inset 0 1px 0 rgba(255,255,255,0.3),
+	inset 0 10px 10px rgba(255,255,255,0.1);
+	border-radius:0.3em;
+	background:#1d70b8;
+	float:left;
+	font-weight:bold;
+	cursor:pointer;
+	font-size:13px;
+	text-decoration:none;
+	color:#FFFFFF;
+	display:block;
+	list-style: none;
+}
+ 
+.emergencyPlumber .inner .getQuote{
+	padding: 20px;
+	border:1px solid rgba(0,0,0,0.4);
+	text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+	box-shadow:
+	inset 0 1px 0 rgba(255,255,255,0.3),
+	inset 0 10px 10px rgba(255,255,255,0.1);
+	border-radius:0.3em;
+	background:#be1622;
+	float:right;
+	font-weight:bold;
+	cursor:pointer;
+	font-size:13px;
+	text-decoration:none;
+	color:#FFFFFF;
+	display:block;
+	width:160px;
+}
+ 
+/*About Emergency Plumber styles*/
+.aboutEmergencyPlumber{
+	margin-top:20px;
+	background-color:#FFFFFF;
+}
+ 
+.aboutEmergencyPlumber .inner{
+	padding: 15px;
+}
+
+.aboutEmergencyPlumber .inner h3.title{
+	text-align:left;
+	border-bottom:3px solid #cccccc;
+	color:#1D70B8;
+	font-weight:bold;
+}
+
+.aboutEmergencyPlumber .inner .picture{
+	float:right;
+}
+ 
+.aboutEmergencyPlumber .inner .main{
+		width:630px;
+		text-align:justify;
+}
+ 
+ /*Our Services styles*/
+.ourServices{
+	background-color: #FFFFFF;
+	overflow:auto;
+	margin-top: 20px;
+}
+ 
+.ourServices .inner{
+	padding: 8px 0px;
+	text-align:center;
+	background-color: #FFFFFF;
+	overflow:visible;
+}
+ 
+.ourServices .inner h3.title{
+	color:#1D70B8;
+	position: relative;
+	overflow: auto;
+	vertical-align: baseline;
+	display: inline;
+	padding: 0 20px;
+	text-align:center;
+}
+
+.ourServices .inner h3.title:before, .ourServices .inner h3.title:after {
+  content: '';
+  display: block;
+  width:400px;
+  position: absolute;
+  top: 0.73em;
+  border-top: 3px solid #cccccc;
+}
+
+.ourServices .inner h3.title:before {
+  right: 100%;
+}
+
+.ourServices .inner h3.title:after {
+  left: 100%;
+}
+
+.ourServices .inner .align{
+	text-align: center;
+	margin-top:24px;
+	/* padding: 0 16px; */
+	display: inline-block;
+}
+
+.ourServices .inner .align a{
+	float:left;
+	display:block;
+	text-decoration:none;
+	color:#000000;
+	opacity:0.2;
+	margin-right:-6px;
+} 
+ 
+.ourServices .inner .align a div{
+	display:block;
+	padding-right: 32px;
+
+}
+ 
+.ourServices .inner .align a img{
+	float:left;
+	display:block;
+	margin-right: 44px;
+	border: 7px double #E1E1DF;
+	border-radius: 50% 50%;
+}
+ 
+.ourServices .inner .align a img:last-child{
+	margin-right:0;
+}
+ 
+ /*Main Content Styles Here*/
+.content{
+	margin-top:20px;
+}
+ 
+.content .inner{
+	color:#000000;
+	background-color:#FFFFFF;
+	padding: 15px;
+}
+ 
+.content h1{
+	color:#1D70B8;
+	border-bottom:3px solid #cccccc;
+	margin:0 auto;
+}
+
+/*Control Panel styles*/
+.controlPanel .inner{
+	/* padding: 8px 20px; */
+	background-color:#1D70B8;
+	color: #FFFFFF;
+}
+ 
+.logoPanel, .linksPanel, .contactsPanel{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #FFFFFF;
+	height: 170px;
+}
+ 
+.logoPanel img {
+	margin-top: 48px;
+	margin-left: 51px;
+}
+  
+.controlPanel .inner .linksPanel ul{
+	float:left;
+	padding: 4px 7px;
+	margin:0 34px;
+	text-align: left;
+}
+ 
+.controlPanel .inner .linksPanel h4{
+	margin-left: 50px;
+	border-bottom: 2px solid #cccccc;
+}
+ 
+.controlPanel .inner .linksPanel ul li{
+	list-style:none;
+	display:inline-block;
+	padding:8px 8px;
+}
+
+.controlPanel .inner .linksPanel ul li > a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+.controlPanel .inner .linksPanel ul li > a:hover{
+	text-decoration:none;
+	color:#000000;
+}
+
+.controlPanel .contactsPanel p{
+	margin:0 auto;
+}
+
+.contact1Panel {
+  margin-right: 6px;
+}
+
+.controlPanel .contactsPanel .contact1Panel,.controlPanel .contactsPanel .contact2Panel {
+	float:right;
+	clear:right;
+}
+
+.contactsPanel p.line1Panel {
+	margin-top: 20px;
+}
+
+.contactsPanel p.numberPanel {
+	margin-bottom: 13px;
+}
+
+/*Footer styles*/
+
+.footer .inner {
+	padding: 10px 0;
+	background-color:#1D588E;
+	font-size:10px;
+	font-weight:bold;
+	color:#FFFFFF;
+	height:auto;
+	text-align: center;
+}
+ 
+.footer .inner > p{
+	display: inline-block;
+}
+ 
+.footer .inner .linksFooter{
+	margin-left:32px;
+}
+ 
+.footer .inner .linksFooter a{
+	margin:0 18px;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+ 
+.footer .inner .linksFooter a:hover{
+	color:#000000;
+}
+
+.footer .inner .social a:first-child{
+	margin-left:10px;
+	text-decoration: none;
+} 
+
+.footer .inner .social a{
+	color:#FFFFFF;
+	margin: 0px 9px;
+	text-decoration: none;
+ }
+ 
+.footer .inner .social a i.fa.fa-facebook, .footer .inner .social a i.fa.fa-twitter, 
+.footer .inner .social a i.fa.fa-google-plus, .footer .inner .social a i.fa.fa-pinterest-p{
+	border: 2px solid #FFFFFF;
+	height: 10px;
+	width: 10px;
+	padding: 4px;
+	border-radius: 50%;
+}
